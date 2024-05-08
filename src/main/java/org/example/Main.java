@@ -1,15 +1,15 @@
 package org.example;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
 
 public class Main {
 
 
-    public static void main(String[] args) throws SQLException {
-        String connectionUrl =  "jdbc:h2:./test";
-        Connection connection = DriverManager.getConnection(connectionUrl);
+    public static void main(String[] args) {
+        Database database = Database.getInstance();
+        database.executeUpdate("CREATE TABLE test_table (name VARCHAR (100))");
+        //database.executeUpdate("DROP TABLE test_table");
+
     }
 
 }

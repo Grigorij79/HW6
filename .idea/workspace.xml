@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="623a412b-be01-452c-be10-95ed902b030e" name="Changes" comment="hw6">
-      <change afterPath="$PROJECT_DIR$/test.mv.db" afterDir="false" />
+    <list default="true" id="623a412b-be01-452c-be10-95ed902b030e" name="Changes" comment="hw61">
+      <change afterPath="$PROJECT_DIR$/sql/find_longest_project.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/find_max_projects_client.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/find_max_salary_worker.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/find_youngest_eldest_workers.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/init_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/populate_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/print_project_prices.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/test.mv.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +26,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,9 +50,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/KovGr/IdeaProjects/HW6/sql",
     "onboarding.tips.debug.path": "C:/Users/KovGr/IdeaProjects/HW6/src/main/java/org/example/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KovGr\IdeaProjects\HW6\sql" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -76,11 +96,28 @@
       <option name="project" value="LOCAL" />
       <updated>1715089290757</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hw61">
+      <option name="closed" value="true" />
+      <created>1715089947520</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715089947520</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hw61">
+      <option name="closed" value="true" />
+      <created>1715090607554</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715090607554</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hw6" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw6" />
+    <MESSAGE value="hw61" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw61" />
   </component>
 </project>
