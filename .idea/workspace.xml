@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="623a412b-be01-452c-be10-95ed902b030e" name="Changes" comment="hw61">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DatabaseInitService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DatabasePopulateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DatabaseQueryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/classmethod/MaxProjectCountClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/populate_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/populate_db.sql" afterDir="false" />
+    <list default="true" id="623a412b-be01-452c-be10-95ed902b030e" name="Changes" comment="hw63">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/classmethod/LongestProject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/classmethod/MaxSalaryWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/classmethod/PrintProjectPrices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/classmethod/YoungestEldestWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/find_longest_project.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/find_longest_project.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DatabasePopulateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DatabasePopulateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DatabaseQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DatabaseQueryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/classmethod/MaxProjectCountClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/classmethod/MaxProjectCountClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +58,12 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\KovGr\IdeaProjects\HW6\sql" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\KovGr\IdeaProjects\HW6\sql" />
+      <recent name="C:\Users\KovGr\IdeaProjects\HW6\src\main\java\org\example\sql" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.DatabasePopulateService">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DatabaseInitService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.DatabaseInitService" />
       <module name="HW6.main" />
@@ -138,12 +144,21 @@
       <option name="project" value="LOCAL" />
       <updated>1715090607554</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="hw63">
+      <option name="closed" value="true" />
+      <created>1715377838520</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715377838520</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hw6" />
     <MESSAGE value="hw61" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw61" />
+    <MESSAGE value="hw63" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw63" />
   </component>
 </project>
