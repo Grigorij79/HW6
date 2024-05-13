@@ -31,7 +31,7 @@ public class DatabasePopulateService {
         }
     }
 
-    private static String getSqlPopulateFromFile() {
+    public static String getSqlPopulateFromFile() {
         StringBuilder sql = new StringBuilder();
 
         try (FileReader fileReader = new FileReader(SQL_POPULATE_DB);){

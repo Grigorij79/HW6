@@ -17,7 +17,6 @@ public class Database {
         }
 
     }
-
     public static Database getInstance(){
         return INSTANCE;
     }
@@ -33,8 +32,6 @@ public class Database {
             e.printStackTrace();
         }
     }
-
-    //*****************************************************8
     public int executeUpdate(String sql){
         try(Statement statement = connection.createStatement();) {
             return statement.executeUpdate(sql);
@@ -45,6 +42,4 @@ public class Database {
         }
 
     }
-
-
 }
